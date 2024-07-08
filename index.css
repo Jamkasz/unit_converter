@@ -1,0 +1,71 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+:root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 0;
+    background: #F4F4F4;
+}
+
+h1 {
+    font-weight: 800;
+    color: white;
+    margin: 0;
+    font-size: 28px;
+}
+
+h2 {
+    color: #5A537B;
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    color: #353535;
+    font-size: 14px;
+}
+
+input {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background: #6943FF;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D3D3D;
+    padding: 9px 27.5px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.top-container {
+    padding: 34px 0px;
+    background: #6943FF;
+}
+
+.unit-container {
+    background: white;
+    margin: 23.43px 25px;
+    border-radius: 4.68px 0px 0px 0px;
+    padding-top: 31px;
+    padding-bottom: 18px;
+}
